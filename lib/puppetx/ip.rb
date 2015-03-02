@@ -19,6 +19,10 @@ class PuppetX::Ip
     IPAddr.new(unicast_netmask).mask(prefixlength).to_s
   end
 
+  def cidrlength
+    prefixlength.to_s
+  end
+
   def network_size
     range.count
   end

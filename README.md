@@ -80,3 +80,7 @@ such subnet in the given IP/CIDR
 
 ip_supernet returns the IP/CIDR of size `$supernet_prefixlength` which contains
 `$cidr`
+
+### `ip_cidrlength.rb($cidr)`
+
+ip_cidrlength returns the CIDR value.
